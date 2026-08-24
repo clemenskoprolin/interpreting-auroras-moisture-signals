@@ -1,0 +1,32 @@
+{
+  "test_id": "precip_large_zwd_ticino_precip_box_2t",
+  "checkpoint": "precip_large_zwd",
+  "case": "2020-10-03T00:00:00",
+  "target": "precip_box_ticino",
+  "attributed_input": "2t_both_times",
+  "baseline_sigma_deg": 2.5,
+  "f_actual": 5.285183906555176,
+  "f_baseline": 5.304572582244873,
+  "rows": [
+    {
+      "n_steps": 8,
+      "ig_sum": -0.02072595653620312,
+      "ig_abs": 1.2180370624705865,
+      "target_delta": -0.019388675689697266,
+      "gap": -0.0013372808465058547,
+      "rel_gap": 0.06897226339272143,
+      "rel_energy": 0.0010978983215776718,
+      "runtime_s": 17.405816078186035
+    },
+    {
+      "n_steps": 16,
+      "ig_sum": -0.020818883791208966,
+      "ig_abs": 1.2169705453574966,
+      "target_delta": -0.019388675689697266,
+      "gap": -0.0014302081015117006,
+      "rel_gap": 0.07376512580855035,
+      "rel_energy": 0.0011752199812622116,
+      "runtime_s": 34.56364679336548
+    }
+  ]
+}

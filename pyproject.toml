@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "interpreting-auroras-moisture-signals"
+version = "0.1.0"
+description = "Experiments for interpreting ZWD and precipitation signals in Aurora"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "cartopy>=0.22",
+  "matplotlib>=3.7",
+  "numcodecs>=0.12",
+  "pandas>=2.0",
+  "scikit-image>=0.21",
+  "scikit-learn>=1.3",
+  "xarray>=2024.1",
+  "zarr>=2.16,<3",
+]
+gpu = [
+  "torch>=2.0",
+  "netCDF4>=1.6",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["xia_methods"]

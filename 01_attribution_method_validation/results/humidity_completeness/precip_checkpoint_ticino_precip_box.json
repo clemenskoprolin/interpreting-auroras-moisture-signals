@@ -1,0 +1,42 @@
+{
+  "test_id": "precip_checkpoint_ticino_precip_box",
+  "checkpoint": "precip_large_zwd",
+  "case": "2020-10-03T00:00:00",
+  "target": "precip_box_ticino",
+  "attributed_input": "q_all_levels_both_times",
+  "baseline_sigma_deg": 2.5,
+  "f_actual": 5.285183906555176,
+  "f_baseline": 4.735876083374023,
+  "rows": [
+    {
+      "n_steps": 8,
+      "ig_sum": 0.5460380851856788,
+      "ig_abs": 4.688433317707425,
+      "target_delta": 0.5493078231811523,
+      "gap": -0.0032697379954735872,
+      "rel_gap": 0.005952469375982806,
+      "rel_energy": 0.0006974052468922479,
+      "runtime_s": 24.11276865005493
+    },
+    {
+      "n_steps": 32,
+      "ig_sum": 0.5461559551697716,
+      "ig_abs": 4.686295918822399,
+      "target_delta": 0.5493078231811523,
+      "gap": -0.0031518680113807873,
+      "rel_gap": 0.0057378902654757116,
+      "rel_energy": 0.0006725712729154347,
+      "runtime_s": 95.98152256011963
+    },
+    {
+      "n_steps": 64,
+      "ig_sum": 0.5461487570493597,
+      "ig_abs": 4.687472895158872,
+      "target_delta": 0.5493078231811523,
+      "gap": -0.0031590661317926205,
+      "rel_gap": 0.0057509942485396105,
+      "rel_energy": 0.000673938005072038,
+      "runtime_s": 191.68579769134521
+    }
+  ]
+}

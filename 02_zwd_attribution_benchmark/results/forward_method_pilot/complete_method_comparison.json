@@ -1,0 +1,72 @@
+{
+  "experiment": {
+    "case_id": "ticino_2020042012_strong",
+    "initialization_time_utc": "2020-04-20T12:00:00",
+    "forecast_lead_hours": 6,
+    "scale": "local",
+    "searchlight_sigma_degrees": 2.5,
+    "target": "q850 box mean over Ticino",
+    "target_box": {
+      "latitude": [45.5, 47.0],
+      "longitude": [7.5, 10.0]
+    },
+    "grid_resolution_degrees": 0.25,
+    "near_evaluation_masks": 376,
+    "remote_control_masks": 4,
+    "metric_basis": "Raw attribution arrays; display smoothing does not affect the reported scores."
+  },
+  "methods": [
+    {
+      "method": "saliency",
+      "settings": "single backward pass",
+      "display_smoothing_sigma_cells": 3,
+      "display_smoothing_sigma_degrees": 0.75,
+      "rho_mag": 0.5538212331717854,
+      "rho_signed": 0.7118827725905192,
+      "rho_signed_applicable": true,
+      "ndcg_at_10": 0.9984318390883986,
+      "top10_recall": 1.0,
+      "remote_gap": 0.005656927824020386,
+      "runtime_s": 3.832967519760132
+    },
+    {
+      "method": "ig",
+      "settings": "32 path steps; 2.5-degree smoothed-ZWD baseline",
+      "display_smoothing_sigma_cells": 10,
+      "display_smoothing_sigma_degrees": 2.5,
+      "rho_mag": 0.5728946657914308,
+      "rho_signed": 0.08057454271111276,
+      "rho_signed_applicable": true,
+      "ndcg_at_10": 0.9995988037370548,
+      "top10_recall": 1.0,
+      "remote_gap": 0.005656927824020386,
+      "runtime_s": 85.6440076828003
+    },
+    {
+      "method": "rise",
+      "settings": "1200 masks; 72x144 grid; p=0.5; seed=42; 2.5-degree smoothed-ZWD baseline",
+      "display_smoothing_sigma_cells": 10,
+      "display_smoothing_sigma_degrees": 2.5,
+      "rho_mag": 0.47069426974180306,
+      "rho_signed": null,
+      "rho_signed_applicable": false,
+      "ndcg_at_10": 0.9984396056734002,
+      "top10_recall": 1.0,
+      "remote_gap": 0.005656927824020386,
+      "runtime_s": 488.26620960235596
+    },
+    {
+      "method": "vit_cx",
+      "settings": "stage 1; 4096 fixed clusters; method post-smoothing disabled",
+      "display_smoothing_sigma_cells": 6,
+      "display_smoothing_sigma_degrees": 1.5,
+      "rho_mag": 0.33526805588041386,
+      "rho_signed": null,
+      "rho_signed_applicable": false,
+      "ndcg_at_10": 0.9657741151937766,
+      "top10_recall": 0.9,
+      "remote_gap": 0.005656927824020386,
+      "runtime_s": 1663.5008208751678
+    }
+  ]
+}

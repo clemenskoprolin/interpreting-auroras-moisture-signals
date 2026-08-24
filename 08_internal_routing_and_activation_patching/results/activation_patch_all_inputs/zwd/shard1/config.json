@@ -1,0 +1,98 @@
+{
+  "experiment": "controlled_all_inputs_activation_patch",
+  "variable": "zwd",
+  "input_name": "zwd",
+  "contrast": "actual_vs_uniform_zwd",
+  "baseline": "per-timestep spatial mean",
+  "target_metric": "q850_target_box_mean_g_per_kg",
+  "model_key": "precip_large_zwd",
+  "checkpoint_path": "${AURORA_PRECIP_ZWD_CHECKPOINT}",
+  "surf_vars": [
+    "2t",
+    "10u",
+    "10v",
+    "msl",
+    "tp_mswep",
+    "zwd"
+  ],
+  "atmos_vars": [
+    "z",
+    "u",
+    "v",
+    "t",
+    "q"
+  ],
+  "cases_file": "../../../../cases_activation_patch_8.json",
+  "rank": 0,
+  "world_size": 4,
+  "sites": [
+    "enc_s0_skip",
+    "enc_s1_skip",
+    "enc_s2_bottleneck",
+    "dec_s0_pre_skip",
+    "dec_s1_pre_skip",
+    "dec_s1_post_skip",
+    "dec_s2_pre_concat",
+    "dec_s2_post_concat"
+  ],
+  "regions": [
+    "whole",
+    "target_box",
+    "mountain_near",
+    "upstream",
+    "hotspot_gaussian",
+    "low_near_gaussian",
+    "remote_control"
+  ],
+  "leads": [
+    6,
+    12,
+    24
+  ],
+  "patch_site_spatial": {
+    "enc_s0_skip": [
+      180,
+      360
+    ],
+    "enc_s1_skip": [
+      90,
+      180
+    ],
+    "enc_s2_bottleneck": [
+      45,
+      90
+    ],
+    "dec_s0_pre_skip": [
+      45,
+      90
+    ],
+    "dec_s1_pre_skip": [
+      90,
+      180
+    ],
+    "dec_s1_post_skip": [
+      180,
+      360
+    ],
+    "dec_s2_pre_concat": [
+      180,
+      360
+    ],
+    "dec_s2_post_concat": [
+      180,
+      360
+    ]
+  },
+  "cases": [
+    {
+      "target": "andes",
+      "init_time": "2020-01-20T00:00:00",
+      "role": "top06_2020"
+    },
+    {
+      "target": "great_plains",
+      "init_time": "2020-03-19T12:00:00",
+      "role": "top06_2020"
+    }
+  ]
+}

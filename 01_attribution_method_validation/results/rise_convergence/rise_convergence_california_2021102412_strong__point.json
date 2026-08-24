@@ -1,0 +1,51 @@
+{
+  "case": "california_2021102412_strong__point",
+  "scale": "local",
+  "lead_time_hours": 6,
+  "cells": [
+    18,
+    36
+  ],
+  "p": 0.5,
+  "seed_a": 42,
+  "seed_b": 1234,
+  "runtime_s": 2138.161615371704,
+  "rows": [
+    {
+      "n_masks": 32,
+      "self_pearson": 0.2319506595984569,
+      "repro_pearson": 0.08218148203757547,
+      "repro_spearman": 0.04650306872241099
+    },
+    {
+      "n_masks": 64,
+      "self_pearson": 0.3622359732230762,
+      "repro_pearson": 0.1306845962800895,
+      "repro_spearman": 0.05361804018817692
+    },
+    {
+      "n_masks": 128,
+      "self_pearson": 0.4780362328745639,
+      "repro_pearson": 0.15052430144649964,
+      "repro_spearman": -0.023980779665477448
+    },
+    {
+      "n_masks": 256,
+      "self_pearson": 0.6868587124160082,
+      "repro_pearson": 0.287999598534179,
+      "repro_spearman": -0.02901220524374348
+    },
+    {
+      "n_masks": 512,
+      "self_pearson": 0.8598876889030248,
+      "repro_pearson": 0.4590576234910816,
+      "repro_spearman": -0.02501151784941001
+    },
+    {
+      "n_masks": 1024,
+      "self_pearson": 1.0,
+      "repro_pearson": 0.6427924636246535,
+      "repro_spearman": 0.005141734830457307
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+[
+ {
+  "target": "andes",
+  "init_time": "2020-11-22T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "andes",
+  "init_time": "2022-03-11T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "andes",
+  "init_time": "2020-10-08T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "andes",
+  "init_time": "2020-05-09T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "andes",
+  "init_time": "2021-10-20T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "andes",
+  "init_time": "2022-12-05T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "andes",
+  "init_time": "2020-09-17T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "andes",
+  "init_time": "2021-08-15T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "andes",
+  "init_time": "2023-08-11T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "andes",
+  "init_time": "2023-09-10T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "andes",
+  "init_time": "2020-05-30T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "andes",
+  "init_time": "2022-11-24T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2023-12-13T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2021-03-16T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2022-07-26T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2020-11-17T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2023-10-10T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2021-09-01T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2021-10-20T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2023-11-05T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2022-06-17T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2022-10-03T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2021-11-13T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "ganges_plain",
+  "init_time": "2020-02-25T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2020-11-27T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2022-02-15T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2020-08-28T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2022-05-01T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2022-06-23T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2021-08-01T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2021-01-19T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2020-04-25T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2020-07-30T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2020-07-09T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2021-05-18T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "himalayas",
+  "init_time": "2021-02-27T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2021-02-27T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2023-03-09T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2021-12-30T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2020-05-15T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2022-10-10T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2020-02-17T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2020-08-16T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2022-05-26T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2023-04-23T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2021-08-01T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2023-06-13T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "cascades_sierra",
+  "init_time": "2022-03-29T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2023-05-04T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2022-06-25T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2020-07-08T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2020-05-06T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2020-12-02T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2020-10-01T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2022-11-02T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2023-09-15T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2021-10-19T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2023-08-14T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2023-04-30T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "ticino",
+  "init_time": "2023-11-13T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2021-04-12T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2021-03-21T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2023-07-23T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2021-10-18T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2023-03-02T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2021-08-06T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2021-01-26T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2020-04-21T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2022-07-09T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2023-12-15T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2022-07-26T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "pampas",
+  "init_time": "2021-09-08T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2023-01-20T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2022-03-07T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2020-05-04T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2022-10-25T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2021-07-09T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2021-12-27T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2022-08-15T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2020-12-12T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2023-02-18T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2020-02-01T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2023-10-02T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "netherlands",
+  "init_time": "2023-02-17T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "japan",
+  "init_time": "2020-10-27T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "japan",
+  "init_time": "2020-08-01T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "japan",
+  "init_time": "2021-02-27T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "japan",
+  "init_time": "2023-03-27T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "japan",
+  "init_time": "2022-02-03T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "japan",
+  "init_time": "2021-03-15T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "japan",
+  "init_time": "2021-08-08T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "japan",
+  "init_time": "2022-02-13T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "japan",
+  "init_time": "2023-10-04T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "japan",
+  "init_time": "2023-03-23T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "japan",
+  "init_time": "2023-10-01T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "japan",
+  "init_time": "2021-09-18T00:00:00",
+  "role": "extreme"
+ }
+]

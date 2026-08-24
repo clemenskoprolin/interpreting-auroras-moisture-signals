@@ -1,0 +1,64 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Jupyter and editor metadata
+.ipynb_checkpoints/
+.vscode/
+.idea/
+node_modules/
+*.swp
+*.swo
+
+# Logs, scheduler output, and run artifacts
+logs/
+*.log
+slurm-*.out
+slurm-*.log
+core_*
+
+# Generated attribution/result artifacts
+*.xia.npz
+*.npz
+*.npy
+
+# Large local model/data checkouts
+aurora_newvariables_zwdx/
+checkpoints/
+data/
+results/
+
+# OS files
+.DS_Store
+Thumbs.db
+uv.lock
+.codegraph/
+AGENTS.md
+CLAUDE.md

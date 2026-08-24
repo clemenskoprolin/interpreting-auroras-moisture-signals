@@ -1,0 +1,32 @@
+{
+  "test_id": "precip_large_zwd_california_precip_box_2t",
+  "checkpoint": "precip_large_zwd",
+  "case": "2020-01-16T18:00:00",
+  "target": "precip_box_california",
+  "attributed_input": "2t_both_times",
+  "baseline_sigma_deg": 2.5,
+  "f_actual": 3.7956655025482178,
+  "f_baseline": 3.43841290473938,
+  "rows": [
+    {
+      "n_steps": 8,
+      "ig_sum": 0.3564001297407984,
+      "ig_abs": 2.06120387241874,
+      "target_delta": 0.3572525978088379,
+      "gap": -0.0008524680680395136,
+      "rel_gap": 0.002386177380564942,
+      "rel_energy": 0.0004135777539749994,
+      "runtime_s": 17.539205312728882
+    },
+    {
+      "n_steps": 16,
+      "ig_sum": 0.35628667204037606,
+      "ig_abs": 2.0588334157824737,
+      "target_delta": 0.3572525978088379,
+      "gap": -0.0009659257684618283,
+      "rel_gap": 0.002703761356491759,
+      "rel_energy": 0.0004691616917897758,
+      "runtime_s": 34.625500440597534
+    }
+  ]
+}

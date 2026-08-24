@@ -1,0 +1,2522 @@
+[
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 86.02192807197571,
+    "rho_mag": 0.4818688894915693,
+    "rho_signed": 0.4290112983024983,
+    "ndcg_at_10": 0.9417013628289217,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004020897157353126,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.30256748199463,
+    "rho_mag": 0.5108101901641737,
+    "rho_signed": 0.4712515832075545,
+    "ndcg_at_10": 0.9440208884749138,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004589537901381042,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 3.033637285232544,
+    "rho_mag": 0.523826371938714,
+    "rho_signed": 0.5588996505102091,
+    "ndcg_at_10": 0.9867281256924174,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004020897157353126,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 2.978753089904785,
+    "rho_mag": 0.5259029966364681,
+    "rho_signed": 0.5598239224685304,
+    "ndcg_at_10": 0.9855646017639815,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004589537901381042,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.18905544281006,
+    "rho_mag": 0.4942687127552175,
+    "rho_signed": 0.4667484028072624,
+    "ndcg_at_10": 0.9365148615888353,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004608068729470844,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 2.9841222763061523,
+    "rho_mag": 0.5014552488887921,
+    "rho_signed": 0.5906296577846446,
+    "ndcg_at_10": 0.990073121987687,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004608068729470844,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.9694344997406,
+    "rho_mag": 0.9331926863572433,
+    "rho_signed": 0.977262072198781,
+    "ndcg_at_10": 0.9585859942119437,
+    "top10_recall": 0.8,
+    "remote_gap": 0.023335856199264527,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.23205971717834,
+    "rho_mag": 0.9503750586029067,
+    "rho_signed": 0.9707923112986404,
+    "ndcg_at_10": 0.9591921704495405,
+    "top10_recall": 0.8,
+    "remote_gap": 0.024515411257743834,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 3.008963108062744,
+    "rho_mag": 0.9503047351148617,
+    "rho_signed": 0.9793952180028129,
+    "ndcg_at_10": 0.9979379746873883,
+    "top10_recall": 1.0,
+    "remote_gap": 0.023335856199264527,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 3.000727653503418,
+    "rho_mag": 0.9646272855133614,
+    "rho_signed": 0.9788795124238162,
+    "ndcg_at_10": 0.9979381057554573,
+    "top10_recall": 1.0,
+    "remote_gap": 0.024515411257743834,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.17528462409973,
+    "rho_mag": 0.9203000468823254,
+    "rho_signed": 0.9697374589779653,
+    "ndcg_at_10": 0.9661421533403093,
+    "top10_recall": 0.8,
+    "remote_gap": 0.02670978903770447,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "california_2021102412_strong",
+    "base_case_id": "california_2021102412_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 2.992249011993408,
+    "rho_mag": 0.9381153305203939,
+    "rho_signed": 0.9765353961556493,
+    "ndcg_at_10": 0.9981413403349834,
+    "top10_recall": 1.0,
+    "remote_gap": 0.02670978903770447,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 86.07815623283386,
+    "rho_mag": 0.554039414322757,
+    "rho_signed": -0.007207488042866681,
+    "ndcg_at_10": 0.994508834259338,
+    "top10_recall": 1.0,
+    "remote_gap": 0.004988023108499913,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.3230652809143,
+    "rho_mag": 0.5257151031334183,
+    "rho_signed": 0.010919814335100992,
+    "ndcg_at_10": 0.9936558716827536,
+    "top10_recall": 1.0,
+    "remote_gap": 0.004965063618736033,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 3.0151681900024414,
+    "rho_mag": 0.5346082185433378,
+    "rho_signed": 0.7242145222623961,
+    "ndcg_at_10": 0.9975800340756132,
+    "top10_recall": 1.0,
+    "remote_gap": 0.004988023108499913,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 2.988913059234619,
+    "rho_mag": 0.5310859966417263,
+    "rho_signed": 0.6805678081781465,
+    "ndcg_at_10": 0.9974285532892246,
+    "top10_recall": 1.0,
+    "remote_gap": 0.004965063618736033,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.28497314453125,
+    "rho_mag": 0.4744012340949023,
+    "rho_signed": 0.01602573622019534,
+    "ndcg_at_10": 0.9961092194441443,
+    "top10_recall": 1.0,
+    "remote_gap": 0.003809223511467682,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 2.9805290699005127,
+    "rho_mag": 0.4826772550135556,
+    "rho_signed": 0.680887616271103,
+    "ndcg_at_10": 0.9983207702154135,
+    "top10_recall": 1.0,
+    "remote_gap": 0.003809223511467682,
+    "n_masks": 326,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.90832424163818,
+    "rho_mag": 0.8745897796530708,
+    "rho_signed": -0.05789967182372246,
+    "ndcg_at_10": 0.967422660822768,
+    "top10_recall": 0.8,
+    "remote_gap": 0.0243062824010849,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.17154932022095,
+    "rho_mag": 0.8690342240975152,
+    "rho_signed": -0.04467885607126113,
+    "ndcg_at_10": 0.9694098327961626,
+    "top10_recall": 0.8,
+    "remote_gap": 0.025372472405433655,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 3.0145251750946045,
+    "rho_mag": 0.9011251758087201,
+    "rho_signed": 0.973722456633849,
+    "ndcg_at_10": 0.9929192457222643,
+    "top10_recall": 0.9,
+    "remote_gap": 0.0243062824010849,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 2.999720573425293,
+    "rho_mag": 0.9045710267229254,
+    "rho_signed": 0.9677449601500234,
+    "ndcg_at_10": 0.9940823022418254,
+    "top10_recall": 0.9,
+    "remote_gap": 0.025372472405433655,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 85.16521787643433,
+    "rho_mag": 0.9135724331926863,
+    "rho_signed": -0.08806844819503047,
+    "ndcg_at_10": 0.9783544814043504,
+    "top10_recall": 0.8,
+    "remote_gap": 0.02459440231323242,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "california_2023031012_secondary",
+    "base_case_id": "california_2023031012_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "california",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 38.25,
+      "center_lon": 238.0,
+      "box_lat": [
+        37.0,
+        39.5
+      ],
+      "box_lon": [
+        236.0,
+        240.0
+      ],
+      "lat_idx_min": 202,
+      "lat_idx_max": 212,
+      "lon_idx_min": 944,
+      "lon_idx_max": 960
+    },
+    "runtime_s": 2.985229015350342,
+    "rho_mag": 0.9475621190811064,
+    "rho_signed": 0.983638068448195,
+    "ndcg_at_10": 0.9967075959060477,
+    "top10_recall": 0.9,
+    "remote_gap": 0.02459440231323242,
+    "n_masks": 80,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.87518334388733,
+    "rho_mag": 0.552419847846447,
+    "rho_signed": 0.47293901592861437,
+    "ndcg_at_10": 0.9711920055162441,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004316087765029714,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.17819118499756,
+    "rho_mag": 0.5371607061721203,
+    "rho_signed": 0.4510227599978306,
+    "ndcg_at_10": 0.9706150195900352,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004604787766178952,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 3.011671543121338,
+    "rho_mag": 0.5282473247437978,
+    "rho_signed": 0.6578670701378643,
+    "ndcg_at_10": 0.9898305613674252,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004316087765029714,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 2.9932191371917725,
+    "rho_mag": 0.5297224516424586,
+    "rho_signed": 0.5868462993029444,
+    "ndcg_at_10": 0.9885631535154706,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004604787766178952,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.12535953521729,
+    "rho_mag": 0.5316365555834672,
+    "rho_signed": 0.36413749303578796,
+    "ndcg_at_10": 0.9908986218292912,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004865870445589476,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 2.9869384765625,
+    "rho_mag": 0.520296625212315,
+    "rho_signed": 0.6527911040629165,
+    "ndcg_at_10": 0.9913331803426816,
+    "top10_recall": 0.9,
+    "remote_gap": 0.004865870445589476,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.93138861656189,
+    "rho_mag": 0.9314935988620199,
+    "rho_signed": 0.935448079658606,
+    "ndcg_at_10": 0.9915492338142772,
+    "top10_recall": 0.9,
+    "remote_gap": 0.024725756645202636,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.20601010322571,
+    "rho_mag": 0.9382076813655761,
+    "rho_signed": 0.9432147937411095,
+    "ndcg_at_10": 0.9912864021209207,
+    "top10_recall": 0.9,
+    "remote_gap": 0.02506534258524577,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 3.015603542327881,
+    "rho_mag": 0.9322048364153628,
+    "rho_signed": 0.9750782361308677,
+    "ndcg_at_10": 0.9953680321525682,
+    "top10_recall": 0.9,
+    "remote_gap": 0.024725756645202636,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 3.003626823425293,
+    "rho_mag": 0.9341678520625889,
+    "rho_signed": 0.9616785206258891,
+    "ndcg_at_10": 0.9947141329291616,
+    "top10_recall": 0.9,
+    "remote_gap": 0.02506534258524577,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.13862681388855,
+    "rho_mag": 0.9751351351351352,
+    "rho_signed": 0.9671408250355619,
+    "ndcg_at_10": 0.9924541838366079,
+    "top10_recall": 0.9,
+    "remote_gap": 0.02838331937789917,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "japan_2020021612_strong",
+    "base_case_id": "japan_2020021612_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 2.9894959926605225,
+    "rho_mag": 0.9716073968705548,
+    "rho_signed": 0.9826458036984352,
+    "ndcg_at_10": 0.9912584638590932,
+    "top10_recall": 0.9,
+    "remote_gap": 0.02838331937789917,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.94968223571777,
+    "rho_mag": 0.4689381200114786,
+    "rho_signed": -0.21769591094629867,
+    "ndcg_at_10": 0.9042523022362303,
+    "top10_recall": 0.7,
+    "remote_gap": 0.0053290075893643535,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.19735074043274,
+    "rho_mag": 0.4295343846236288,
+    "rho_signed": -0.1847473949328492,
+    "ndcg_at_10": 0.903230233258698,
+    "top10_recall": 0.7,
+    "remote_gap": 0.0056969093371041215,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 3.018087387084961,
+    "rho_mag": 0.4487978906363227,
+    "rho_signed": 0.6321348134926699,
+    "ndcg_at_10": 0.9763487515707897,
+    "top10_recall": 0.8,
+    "remote_gap": 0.0053290075893643535,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 3.0014965534210205,
+    "rho_mag": 0.44298838787651046,
+    "rho_signed": 0.546106843477492,
+    "ndcg_at_10": 0.9755892578907894,
+    "top10_recall": 0.8,
+    "remote_gap": 0.0056969093371041215,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.20279669761658,
+    "rho_mag": 0.5054569959587688,
+    "rho_signed": -0.1826202137314735,
+    "ndcg_at_10": 0.9237370192175609,
+    "top10_recall": 0.8,
+    "remote_gap": 0.005635698384876492,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 2.971979856491089,
+    "rho_mag": 0.5365391596053285,
+    "rho_signed": 0.6586571399397232,
+    "ndcg_at_10": 0.9887167538356622,
+    "top10_recall": 0.9,
+    "remote_gap": 0.005635698384876492,
+    "n_masks": 316,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.99838328361511,
+    "rho_mag": 0.9467709815078236,
+    "rho_signed": 0.3385775248933144,
+    "ndcg_at_10": 0.9701798608770028,
+    "top10_recall": 0.9,
+    "remote_gap": 0.03362095832824707,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.25684142112732,
+    "rho_mag": 0.9490753911806543,
+    "rho_signed": 0.37490753911806546,
+    "ndcg_at_10": 0.9707830660064553,
+    "top10_recall": 0.9,
+    "remote_gap": 0.03495935599009196,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 3.0213944911956787,
+    "rho_mag": 0.9745376955903272,
+    "rho_signed": 0.9778947368421053,
+    "ndcg_at_10": 0.9995366282982168,
+    "top10_recall": 1.0,
+    "remote_gap": 0.03362095832824707,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 3.0016050338745117,
+    "rho_mag": 0.9692460881934566,
+    "rho_signed": 0.9821052631578947,
+    "ndcg_at_10": 0.9995662368805186,
+    "top10_recall": 1.0,
+    "remote_gap": 0.03495935599009196,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 85.21039462089539,
+    "rho_mag": 0.9508392603129445,
+    "rho_signed": 0.39268847795163586,
+    "ndcg_at_10": 0.9736076965708081,
+    "top10_recall": 0.9,
+    "remote_gap": 0.03535041014353434,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "japan_2023121200_secondary",
+    "base_case_id": "japan_2023121200_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "japan",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 35.5,
+      "center_lon": 138.75,
+      "box_lat": [
+        34.5,
+        36.5
+      ],
+      "box_lon": [
+        137.0,
+        140.5
+      ],
+      "lat_idx_min": 214,
+      "lat_idx_max": 222,
+      "lon_idx_min": 548,
+      "lon_idx_max": 562
+    },
+    "runtime_s": 2.9908947944641113,
+    "rho_mag": 0.9605120910384068,
+    "rho_signed": 0.9830156472261735,
+    "ndcg_at_10": 0.999421985460124,
+    "top10_recall": 1.0,
+    "remote_gap": 0.03535041014353434,
+    "n_masks": 75,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 86.94379782676697,
+    "rho_mag": 0.5588386926008159,
+    "rho_signed": 0.08641042153796978,
+    "ndcg_at_10": 0.9990823141114032,
+    "top10_recall": 1.0,
+    "remote_gap": 0.005573211198157453,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 86.45729327201843,
+    "rho_mag": 0.5708970514411457,
+    "rho_signed": 0.09559164099412762,
+    "ndcg_at_10": 0.9990379920833304,
+    "top10_recall": 1.0,
+    "remote_gap": 0.0057695742617262175,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.2151951789855957,
+    "rho_mag": 0.544547024252808,
+    "rho_signed": 0.5961523668636634,
+    "ndcg_at_10": 0.9990283248634159,
+    "top10_recall": 1.0,
+    "remote_gap": 0.005573211198157453,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.2526872158050537,
+    "rho_mag": 0.5521019674084444,
+    "rho_signed": 0.5549010477286125,
+    "ndcg_at_10": 0.9990173503337209,
+    "top10_recall": 1.0,
+    "remote_gap": 0.0057695742617262175,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 85.6440076828003,
+    "rho_mag": 0.5728946657914308,
+    "rho_signed": 0.08057454271111276,
+    "ndcg_at_10": 0.9995988037370548,
+    "top10_recall": 1.0,
+    "remote_gap": 0.005656927824020386,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.832967519760132,
+    "rho_mag": 0.5538212331717854,
+    "rho_signed": 0.7118827725905192,
+    "ndcg_at_10": 0.9984318390883986,
+    "top10_recall": 1.0,
+    "remote_gap": 0.005656927824020386,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 86.63300967216492,
+    "rho_mag": 0.9524220520012946,
+    "rho_signed": 0.9135829107778617,
+    "ndcg_at_10": 0.9980788481388244,
+    "top10_recall": 0.9,
+    "remote_gap": 0.03417331239451533,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 86.28602576255798,
+    "rho_mag": 0.9586332321255182,
+    "rho_signed": 0.9178367214832853,
+    "ndcg_at_10": 0.9980034446497628,
+    "top10_recall": 0.9,
+    "remote_gap": 0.035341090482214225,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 4.145551443099976,
+    "rho_mag": 0.9543023596319529,
+    "rho_signed": 0.9805187799577701,
+    "ndcg_at_10": 0.9958070006058714,
+    "top10_recall": 0.9,
+    "remote_gap": 0.03417331239451533,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.2867324352264404,
+    "rho_mag": 0.9586024074102616,
+    "rho_signed": 0.9764036804710017,
+    "ndcg_at_10": 0.9958188613209127,
+    "top10_recall": 0.9,
+    "remote_gap": 0.035341090482214225,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 86.14729857444763,
+    "rho_mag": 0.9550267404404852,
+    "rho_signed": 0.9003899326479972,
+    "ndcg_at_10": 0.9990828607068793,
+    "top10_recall": 1.0,
+    "remote_gap": 0.03384379977765291,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "ticino_2020042012_strong",
+    "base_case_id": "ticino_2020042012_strong",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.9906787872314453,
+    "rho_mag": 0.9502026725028128,
+    "rho_signed": 0.9847571783055654,
+    "ndcg_at_10": 0.9924561641451584,
+    "top10_recall": 0.8,
+    "remote_gap": 0.03384379977765291,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 86.88839173316956,
+    "rho_mag": 0.5014713306257128,
+    "rho_signed": -0.3113078791866295,
+    "ndcg_at_10": 0.9987306980693351,
+    "top10_recall": 1.0,
+    "remote_gap": 0.006772375487266702,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 85.35099673271179,
+    "rho_mag": 0.49328192862362114,
+    "rho_signed": -0.31943879451436313,
+    "ndcg_at_10": 0.9986967804078065,
+    "top10_recall": 1.0,
+    "remote_gap": 0.007220341804179739,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.00555682182312,
+    "rho_mag": 0.5155740492054072,
+    "rho_signed": 0.7134836454361796,
+    "ndcg_at_10": 0.9916766655089232,
+    "top10_recall": 0.9,
+    "remote_gap": 0.006772375487266702,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 2.9935765266418457,
+    "rho_mag": 0.5000573678005182,
+    "rho_signed": 0.7049341384954004,
+    "ndcg_at_10": 0.9917209931466399,
+    "top10_recall": 0.9,
+    "remote_gap": 0.007220341804179739,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 85.47441959381104,
+    "rho_mag": 0.5048562570926833,
+    "rho_signed": -0.22431608290243837,
+    "ndcg_at_10": 0.9989664537375355,
+    "top10_recall": 1.0,
+    "remote_gap": 0.006642408827517895,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "local",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.8831558227539062,
+    "rho_mag": 0.5405301745087726,
+    "rho_signed": 0.741310808958328,
+    "ndcg_at_10": 0.994706525684928,
+    "top10_recall": 0.9,
+    "remote_gap": 0.006642408827517895,
+    "n_masks": 376,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_global",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 87.14275074005127,
+    "rho_mag": 0.8890310250759058,
+    "rho_signed": -0.7066720096173111,
+    "ndcg_at_10": 0.9963478726061208,
+    "top10_recall": 0.9,
+    "remote_gap": 0.039387661477793816,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 85.81621623039246,
+    "rho_mag": 0.8941941648814019,
+    "rho_signed": -0.7066874219749395,
+    "ndcg_at_10": 0.9961598368576439,
+    "top10_recall": 0.9,
+    "remote_gap": 0.04056690957235253,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.4674572944641113,
+    "rho_mag": 0.902116116702372,
+    "rho_signed": 0.9884253194211119,
+    "ndcg_at_10": 0.9989334660528195,
+    "top10_recall": 1.0,
+    "remote_gap": 0.039387661477793816,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.3615660667419434,
+    "rho_mag": 0.90185410662269,
+    "rho_signed": 0.986699135366737,
+    "ndcg_at_10": 0.9991484053830156,
+    "top10_recall": 1.0,
+    "remote_gap": 0.04056690957235253,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "ig",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 86.11013865470886,
+    "rho_mag": 0.8828198449516823,
+    "rho_signed": -0.7142548895704576,
+    "ndcg_at_10": 0.9950017308109372,
+    "top10_recall": 0.9,
+    "remote_gap": 0.040465049121690834,
+    "n_masks": 92,
+    "n_remote": 4
+  },
+  {
+    "method": "saliency",
+    "case_id": "ticino_2020110212_secondary",
+    "base_case_id": "ticino_2020110212_secondary",
+    "scale": "synoptic",
+    "target_mode": "box",
+    "target_meta": {
+      "target_short": "ticino",
+      "target_mode": "box",
+      "level_hpa": 850,
+      "selection": "box_mean",
+      "center_lat": 46.25,
+      "center_lon": 8.75,
+      "box_lat": [
+        45.5,
+        47.0
+      ],
+      "box_lon": [
+        7.5,
+        10.0
+      ],
+      "lat_idx_min": 172,
+      "lat_idx_max": 178,
+      "lon_idx_min": 30,
+      "lon_idx_max": 40
+    },
+    "runtime_s": 3.2512407302856445,
+    "rho_mag": 0.8950572569085893,
+    "rho_signed": 0.9924325324044819,
+    "ndcg_at_10": 0.9992798677296277,
+    "top10_recall": 1.0,
+    "remote_gap": 0.040465049121690834,
+    "n_masks": 92,
+    "n_remote": 4
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "case_id": "alps_east_2020-06-29T06:00:00",
+    "target": "alps_east",
+    "init_time": "2020-06-29T06:00:00",
+    "m_diff_q850": 0.0502513721585273
+  },
+  {
+    "case_id": "andes_2020-03-25T12:00:00",
+    "target": "andes",
+    "init_time": "2020-03-25T12:00:00",
+    "m_diff_q850": 0.0940361060202121
+  },
+  {
+    "case_id": "aquitaine_basin_2020-10-02T06:00:00",
+    "target": "aquitaine_basin",
+    "init_time": "2020-10-02T06:00:00",
+    "m_diff_q850": 0.0730734318494796
+  },
+  {
+    "case_id": "atlas_2020-03-19T18:00:00",
+    "target": "atlas",
+    "init_time": "2020-03-19T18:00:00",
+    "m_diff_q850": 0.0902935862541198
+  },
+  {
+    "case_id": "california_2020-12-13T18:00:00",
+    "target": "california",
+    "init_time": "2020-12-13T18:00:00",
+    "m_diff_q850": 0.0579636543989181
+  },
+  {
+    "case_id": "canterbury_plain_2020-02-22T06:00:00",
+    "target": "canterbury_plain",
+    "init_time": "2020-02-22T06:00:00",
+    "m_diff_q850": 0.0472203828394413
+  },
+  {
+    "case_id": "cascades_sierra_2020-11-13T18:00:00",
+    "target": "cascades_sierra",
+    "init_time": "2020-11-13T18:00:00",
+    "m_diff_q850": 0.0485042110085487
+  },
+  {
+    "case_id": "caspian_lowland_2020-09-19T06:00:00",
+    "target": "caspian_lowland",
+    "init_time": "2020-09-19T06:00:00",
+    "m_diff_q850": 0.0780071131885051
+  },
+  {
+    "case_id": "caucasus_2020-08-22T12:00:00",
+    "target": "caucasus",
+    "init_time": "2020-08-22T12:00:00",
+    "m_diff_q850": 0.0589601695537567
+  },
+  {
+    "case_id": "ganges_plain_2020-07-19T12:00:00",
+    "target": "ganges_plain",
+    "init_time": "2020-07-19T12:00:00",
+    "m_diff_q850": 0.1068338751792907
+  },
+  {
+    "case_id": "great_plains_2020-06-27T12:00:00",
+    "target": "great_plains",
+    "init_time": "2020-06-27T12:00:00",
+    "m_diff_q850": 0.0910079106688499
+  },
+  {
+    "case_id": "himalayas_2020-09-23T06:00:00",
+    "target": "himalayas",
+    "init_time": "2020-09-23T06:00:00",
+    "m_diff_q850": 0.0804858282208442
+  },
+  {
+    "case_id": "japan_2020-10-10T00:00:00",
+    "target": "japan",
+    "init_time": "2020-10-10T00:00:00",
+    "m_diff_q850": 0.1194924116134643
+  },
+  {
+    "case_id": "netherlands_2020-12-27T12:00:00",
+    "target": "netherlands",
+    "init_time": "2020-12-27T12:00:00",
+    "m_diff_q850": 0.0503496266901493
+  },
+  {
+    "case_id": "new_zealand_alps_2020-12-23T00:00:00",
+    "target": "new_zealand_alps",
+    "init_time": "2020-12-23T00:00:00",
+    "m_diff_q850": 0.1061893999576568
+  },
+  {
+    "case_id": "pacific_nw_coast_2020-10-10T12:00:00",
+    "target": "pacific_nw_coast",
+    "init_time": "2020-10-10T12:00:00",
+    "m_diff_q850": 0.0538704916834831
+  },
+  {
+    "case_id": "pampas_2020-01-15T12:00:00",
+    "target": "pampas",
+    "init_time": "2020-01-15T12:00:00",
+    "m_diff_q850": 0.1634545624256134
+  },
+  {
+    "case_id": "pyrenees_2020-03-02T06:00:00",
+    "target": "pyrenees",
+    "init_time": "2020-03-02T06:00:00",
+    "m_diff_q850": 0.056558521464467
+  },
+  {
+    "case_id": "rockies_2020-07-27T00:00:00",
+    "target": "rockies",
+    "init_time": "2020-07-27T00:00:00",
+    "m_diff_q850": 0.0604782253503799
+  },
+  {
+    "case_id": "sahara_plain_2020-09-01T06:00:00",
+    "target": "sahara_plain",
+    "init_time": "2020-09-01T06:00:00",
+    "m_diff_q850": 0.1385258510708809
+  },
+  {
+    "case_id": "ticino_2020-10-03T00:00:00",
+    "target": "ticino",
+    "init_time": "2020-10-03T00:00:00",
+    "m_diff_q850": 0.11525209993124
+  },
+  {
+    "case_id": "valais_2020-10-03T00:00:00",
+    "target": "valais",
+    "init_time": "2020-10-03T00:00:00",
+    "m_diff_q850": 0.0603524968028068
+  }
+]

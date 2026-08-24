@@ -1,0 +1,157 @@
+{
+  "case": "ticino_2020042012_strong__point",
+  "scale": "local",
+  "lead_time_hours": 6,
+  "cascade": [
+    {
+      "stage": "decoder_2",
+      "cumulative_stages": [
+        "decoder_2"
+      ],
+      "method": "saliency",
+      "full_pearson": 0.6895443095714505,
+      "full_spearman": 0.7320891448866479,
+      "runtime_s": 5.14702033996582
+    },
+    {
+      "stage": "decoder_2",
+      "cumulative_stages": [
+        "decoder_2"
+      ],
+      "method": "ig",
+      "full_pearson": 0.6602390441062502,
+      "full_spearman": 0.7029138065578961,
+      "runtime_s": 85.47996068000793
+    },
+    {
+      "stage": "decoder_1",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1"
+      ],
+      "method": "saliency",
+      "full_pearson": 0.4488343364983612,
+      "full_spearman": 0.1362027536072109,
+      "runtime_s": 3.0052175521850586
+    },
+    {
+      "stage": "decoder_1",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1"
+      ],
+      "method": "ig",
+      "full_pearson": 0.3288068916429367,
+      "full_spearman": 0.1420125143244722,
+      "runtime_s": 85.54027700424194
+    },
+    {
+      "stage": "decoder_0",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0"
+      ],
+      "method": "saliency",
+      "full_pearson": 0.45079482314939306,
+      "full_spearman": 0.023374764942478567,
+      "runtime_s": 3.0191452503204346
+    },
+    {
+      "stage": "decoder_0",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0"
+      ],
+      "method": "ig",
+      "full_pearson": 0.3309826947832231,
+      "full_spearman": 0.029664441611466415,
+      "runtime_s": 85.59465050697327
+    },
+    {
+      "stage": "encoder_2",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0",
+        "encoder_2"
+      ],
+      "method": "saliency",
+      "full_pearson": 0.4516846012253972,
+      "full_spearman": 0.02167043247003665,
+      "runtime_s": 3.0093631744384766
+    },
+    {
+      "stage": "encoder_2",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0",
+        "encoder_2"
+      ],
+      "method": "ig",
+      "full_pearson": 0.33110378781013344,
+      "full_spearman": 0.021116202879091574,
+      "runtime_s": 85.55455875396729
+    },
+    {
+      "stage": "encoder_1",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0",
+        "encoder_2",
+        "encoder_1"
+      ],
+      "method": "saliency",
+      "full_pearson": 0.45082059805168,
+      "full_spearman": 0.0027126731817222016,
+      "runtime_s": 2.9958200454711914
+    },
+    {
+      "stage": "encoder_1",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0",
+        "encoder_2",
+        "encoder_1"
+      ],
+      "method": "ig",
+      "full_pearson": 0.33105913975126106,
+      "full_spearman": 0.002527247013110504,
+      "runtime_s": 85.39651417732239
+    },
+    {
+      "stage": "encoder_0",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0",
+        "encoder_2",
+        "encoder_1",
+        "encoder_0"
+      ],
+      "method": "saliency",
+      "full_pearson": -0.002367763000162329,
+      "full_spearman": 0.0018429484452039293,
+      "runtime_s": 2.983175754547119
+    },
+    {
+      "stage": "encoder_0",
+      "cumulative_stages": [
+        "decoder_2",
+        "decoder_1",
+        "decoder_0",
+        "encoder_2",
+        "encoder_1",
+        "encoder_0"
+      ],
+      "method": "ig",
+      "full_pearson": 0.044100922768592996,
+      "full_spearman": 0.003223855543979264,
+      "runtime_s": 84.88855934143066
+    }
+  ]
+}

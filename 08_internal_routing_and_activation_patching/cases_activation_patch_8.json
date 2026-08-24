@@ -1,0 +1,10 @@
+[
+  {"target": "andes",            "init_time": "2020-01-20T00:00:00", "role": "top06_2020"},
+  {"target": "himalayas",        "init_time": "2020-02-16T12:00:00", "role": "strong"},
+  {"target": "cascades_sierra",  "init_time": "2020-04-23T00:00:00", "role": "top04_2020"},
+  {"target": "new_zealand_alps", "init_time": "2020-03-03T00:00:00", "role": "secondary"},
+  {"target": "great_plains",     "init_time": "2020-03-19T12:00:00", "role": "top06_2020"},
+  {"target": "ganges_plain",     "init_time": "2020-11-01T00:00:00", "role": "top03_2020"},
+  {"target": "netherlands",      "init_time": "2020-11-02T00:00:00", "role": "strong_2020"},
+  {"target": "japan",            "init_time": "2020-02-16T12:00:00", "role": "strong"}
+]

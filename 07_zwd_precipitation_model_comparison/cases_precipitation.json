@@ -1,0 +1,882 @@
+[
+  {
+    "target": "ticino",
+    "init_time": "2020-10-03T00:00:00",
+    "score": 13.2137,
+    "p_box_mean": 0.0221,
+    "p_disk_p90": 0.0069,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "ticino",
+    "init_time": "2020-08-30T12:00:00",
+    "score": 9.69,
+    "p_box_mean": 0.0161,
+    "p_disk_p90": 0.0062,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "ticino",
+    "init_time": "2020-06-04T18:00:00",
+    "score": 7.514,
+    "p_box_mean": 0.0126,
+    "p_disk_p90": 0.0051,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "ticino",
+    "init_time": "2020-03-02T18:00:00",
+    "score": 6.6228,
+    "p_box_mean": 0.0112,
+    "p_disk_p90": 0.0047,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "california",
+    "init_time": "2020-01-16T18:00:00",
+    "score": 12.9182,
+    "p_box_mean": 0.0093,
+    "p_disk_p90": 0.0038,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "california",
+    "init_time": "2020-04-05T18:00:00",
+    "score": 9.7849,
+    "p_box_mean": 0.0074,
+    "p_disk_p90": 0.0024,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "california",
+    "init_time": "2020-12-13T18:00:00",
+    "score": 9.2998,
+    "p_box_mean": 0.0064,
+    "p_disk_p90": 0.0037,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "california",
+    "init_time": "2020-11-14T00:00:00",
+    "score": 7.1771,
+    "p_box_mean": 0.0044,
+    "p_disk_p90": 0.0044,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "japan",
+    "init_time": "2020-10-10T00:00:00",
+    "score": 9.7848,
+    "p_box_mean": 0.0296,
+    "p_disk_p90": 0.0101,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "japan",
+    "init_time": "2020-07-03T18:00:00",
+    "score": 9.7366,
+    "p_box_mean": 0.0277,
+    "p_disk_p90": 0.014,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "japan",
+    "init_time": "2020-04-18T00:00:00",
+    "score": 9.1177,
+    "p_box_mean": 0.0277,
+    "p_disk_p90": 0.0096,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "japan",
+    "init_time": "2020-05-18T18:00:00",
+    "score": 8.4605,
+    "p_box_mean": 0.0225,
+    "p_disk_p90": 0.0166,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "alps_east",
+    "init_time": "2020-08-04T00:00:00",
+    "score": 11.2525,
+    "p_box_mean": 0.0181,
+    "p_disk_p90": 0.0057,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "alps_east",
+    "init_time": "2020-06-29T06:00:00",
+    "score": 7.3986,
+    "p_box_mean": 0.0131,
+    "p_disk_p90": 0.0028,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "alps_east",
+    "init_time": "2020-09-25T12:00:00",
+    "score": 7.2579,
+    "p_box_mean": 0.0093,
+    "p_disk_p90": 0.0087,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "alps_east",
+    "init_time": "2020-02-03T06:00:00",
+    "score": 5.4504,
+    "p_box_mean": 0.0094,
+    "p_disk_p90": 0.0032,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "valais",
+    "init_time": "2020-10-03T00:00:00",
+    "score": 13.2368,
+    "p_box_mean": 0.0205,
+    "p_disk_p90": 0.0075,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "valais",
+    "init_time": "2020-08-30T12:00:00",
+    "score": 10.3627,
+    "p_box_mean": 0.0163,
+    "p_disk_p90": 0.0061,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "valais",
+    "init_time": "2020-03-05T12:00:00",
+    "score": 5.5199,
+    "p_box_mean": 0.0074,
+    "p_disk_p90": 0.0069,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "valais",
+    "init_time": "2020-02-02T18:00:00",
+    "score": 5.4723,
+    "p_box_mean": 0.0092,
+    "p_disk_p90": 0.0035,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "rockies",
+    "init_time": "2020-05-25T00:00:00",
+    "score": 16.8863,
+    "p_box_mean": 0.0089,
+    "p_disk_p90": 0.0044,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "rockies",
+    "init_time": "2020-03-19T18:00:00",
+    "score": 14.6661,
+    "p_box_mean": 0.0074,
+    "p_disk_p90": 0.0049,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "rockies",
+    "init_time": "2020-09-09T06:00:00",
+    "score": 9.0984,
+    "p_box_mean": 0.0035,
+    "p_disk_p90": 0.0069,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "rockies",
+    "init_time": "2020-07-27T00:00:00",
+    "score": 6.6481,
+    "p_box_mean": 0.0028,
+    "p_disk_p90": 0.0045,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "himalayas",
+    "init_time": "2020-07-20T00:00:00",
+    "score": 9.4046,
+    "p_box_mean": 0.0132,
+    "p_disk_p90": 0.0094,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "himalayas",
+    "init_time": "2020-09-23T06:00:00",
+    "score": 8.9912,
+    "p_box_mean": 0.0123,
+    "p_disk_p90": 0.0102,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "himalayas",
+    "init_time": "2020-06-16T00:00:00",
+    "score": 7.3503,
+    "p_box_mean": 0.011,
+    "p_disk_p90": 0.0065,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "himalayas",
+    "init_time": "2020-01-17T06:00:00",
+    "score": 5.0125,
+    "p_box_mean": 0.0081,
+    "p_disk_p90": 0.0041,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "netherlands",
+    "init_time": "2020-02-23T06:00:00",
+    "score": 9.7621,
+    "p_box_mean": 0.0113,
+    "p_disk_p90": 0.0049,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "netherlands",
+    "init_time": "2020-06-05T12:00:00",
+    "score": 6.9985,
+    "p_box_mean": 0.0076,
+    "p_disk_p90": 0.0059,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "netherlands",
+    "init_time": "2020-07-26T00:00:00",
+    "score": 6.7618,
+    "p_box_mean": 0.0081,
+    "p_disk_p90": 0.0038,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "netherlands",
+    "init_time": "2020-12-27T12:00:00",
+    "score": 6.6822,
+    "p_box_mean": 0.0065,
+    "p_disk_p90": 0.0078,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "great_plains",
+    "init_time": "2020-05-25T06:00:00",
+    "score": 9.2678,
+    "p_box_mean": 0.0139,
+    "p_disk_p90": 0.0067,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "great_plains",
+    "init_time": "2020-07-31T00:00:00",
+    "score": 9.1605,
+    "p_box_mean": 0.0146,
+    "p_disk_p90": 0.0044,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "great_plains",
+    "init_time": "2020-06-27T12:00:00",
+    "score": 8.5811,
+    "p_box_mean": 0.0147,
+    "p_disk_p90": 0.0018,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "great_plains",
+    "init_time": "2020-11-25T06:00:00",
+    "score": 6.4807,
+    "p_box_mean": 0.0082,
+    "p_disk_p90": 0.0094,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "ganges_plain",
+    "init_time": "2020-05-20T18:00:00",
+    "score": 12.4707,
+    "p_box_mean": 0.0348,
+    "p_disk_p90": 0.0075,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "ganges_plain",
+    "init_time": "2020-09-01T06:00:00",
+    "score": 7.5264,
+    "p_box_mean": 0.0212,
+    "p_disk_p90": 0.0065,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "ganges_plain",
+    "init_time": "2020-07-19T12:00:00",
+    "score": 7.1791,
+    "p_box_mean": 0.0191,
+    "p_disk_p90": 0.0091,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "ganges_plain",
+    "init_time": "2020-10-23T06:00:00",
+    "score": 4.8327,
+    "p_box_mean": 0.0114,
+    "p_disk_p90": 0.0116,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "andes",
+    "init_time": "2020-06-17T12:00:00",
+    "score": 16.2231,
+    "p_box_mean": 0.0089,
+    "p_disk_p90": 0.0037,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "andes",
+    "init_time": "2020-03-25T12:00:00",
+    "score": 5.6612,
+    "p_box_mean": 0.0015,
+    "p_disk_p90": 0.0064,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "andes",
+    "init_time": "2020-07-21T18:00:00",
+    "score": 4.5287,
+    "p_box_mean": 0.0018,
+    "p_disk_p90": 0.0038,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "andes",
+    "init_time": "2020-08-26T00:00:00",
+    "score": 3.9765,
+    "p_box_mean": 0.002,
+    "p_disk_p90": 0.0021,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "cascades_sierra",
+    "init_time": "2020-11-13T18:00:00",
+    "score": 12.0291,
+    "p_box_mean": 0.0049,
+    "p_disk_p90": 0.0082,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "cascades_sierra",
+    "init_time": "2020-01-26T12:00:00",
+    "score": 8.9016,
+    "p_box_mean": 0.004,
+    "p_disk_p90": 0.0046,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "cascades_sierra",
+    "init_time": "2020-12-17T12:00:00",
+    "score": 8.1348,
+    "p_box_mean": 0.0037,
+    "p_disk_p90": 0.0039,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "cascades_sierra",
+    "init_time": "2020-03-15T18:00:00",
+    "score": 5.7877,
+    "p_box_mean": 0.0029,
+    "p_disk_p90": 0.0022,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pyrenees",
+    "init_time": "2020-10-02T12:00:00",
+    "score": 9.4873,
+    "p_box_mean": 0.0107,
+    "p_disk_p90": 0.0094,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pyrenees",
+    "init_time": "2020-01-22T06:00:00",
+    "score": 8.7503,
+    "p_box_mean": 0.0138,
+    "p_disk_p90": 0.0011,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pyrenees",
+    "init_time": "2020-05-10T12:00:00",
+    "score": 8.5985,
+    "p_box_mean": 0.0116,
+    "p_disk_p90": 0.005,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pyrenees",
+    "init_time": "2020-03-02T06:00:00",
+    "score": 6.3619,
+    "p_box_mean": 0.0082,
+    "p_disk_p90": 0.0052,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "atlas",
+    "init_time": "2020-03-19T18:00:00",
+    "score": 23.098,
+    "p_box_mean": 0.022,
+    "p_disk_p90": 0.0006,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "atlas",
+    "init_time": "2020-10-22T06:00:00",
+    "score": 10.1464,
+    "p_box_mean": 0.0083,
+    "p_disk_p90": 0.0033,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "atlas",
+    "init_time": "2020-11-26T06:00:00",
+    "score": 9.3967,
+    "p_box_mean": 0.0063,
+    "p_disk_p90": 0.0055,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "atlas",
+    "init_time": "2020-08-23T18:00:00",
+    "score": 8.9566,
+    "p_box_mean": 0.0089,
+    "p_disk_p90": 0.0,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "new_zealand_alps",
+    "init_time": "2020-02-04T06:00:00",
+    "score": 8.6845,
+    "p_box_mean": 0.0168,
+    "p_disk_p90": 0.0073,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "new_zealand_alps",
+    "init_time": "2020-04-12T06:00:00",
+    "score": 7.3356,
+    "p_box_mean": 0.0127,
+    "p_disk_p90": 0.0096,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "new_zealand_alps",
+    "init_time": "2020-09-22T12:00:00",
+    "score": 6.8833,
+    "p_box_mean": 0.0133,
+    "p_disk_p90": 0.0068,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "new_zealand_alps",
+    "init_time": "2020-12-23T00:00:00",
+    "score": 4.9917,
+    "p_box_mean": 0.0086,
+    "p_disk_p90": 0.0082,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caucasus",
+    "init_time": "2020-05-06T18:00:00",
+    "score": 9.7663,
+    "p_box_mean": 0.0076,
+    "p_disk_p90": 0.004,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caucasus",
+    "init_time": "2020-04-02T00:00:00",
+    "score": 7.3612,
+    "p_box_mean": 0.0061,
+    "p_disk_p90": 0.0026,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caucasus",
+    "init_time": "2020-08-22T12:00:00",
+    "score": 7.1911,
+    "p_box_mean": 0.0064,
+    "p_disk_p90": 0.0018,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caucasus",
+    "init_time": "2020-07-13T12:00:00",
+    "score": 6.2266,
+    "p_box_mean": 0.0054,
+    "p_disk_p90": 0.002,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pampas",
+    "init_time": "2020-01-15T12:00:00",
+    "score": 13.5457,
+    "p_box_mean": 0.0199,
+    "p_disk_p90": 0.0125,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pampas",
+    "init_time": "2020-06-18T06:00:00",
+    "score": 10.7461,
+    "p_box_mean": 0.0149,
+    "p_disk_p90": 0.0133,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pampas",
+    "init_time": "2020-04-28T12:00:00",
+    "score": 10.4576,
+    "p_box_mean": 0.0149,
+    "p_disk_p90": 0.0117,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pampas",
+    "init_time": "2020-09-26T06:00:00",
+    "score": 10.3816,
+    "p_box_mean": 0.0173,
+    "p_disk_p90": 0.0043,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pacific_nw_coast",
+    "init_time": "2020-11-13T12:00:00",
+    "score": 10.5603,
+    "p_box_mean": 0.021,
+    "p_disk_p90": 0.009,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pacific_nw_coast",
+    "init_time": "2020-12-20T06:00:00",
+    "score": 9.5429,
+    "p_box_mean": 0.0203,
+    "p_disk_p90": 0.0063,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pacific_nw_coast",
+    "init_time": "2020-10-10T12:00:00",
+    "score": 7.6376,
+    "p_box_mean": 0.0149,
+    "p_disk_p90": 0.008,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "pacific_nw_coast",
+    "init_time": "2020-01-28T00:00:00",
+    "score": 6.6509,
+    "p_box_mean": 0.014,
+    "p_disk_p90": 0.0058,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "aquitaine_basin",
+    "init_time": "2020-10-02T06:00:00",
+    "score": 10.1907,
+    "p_box_mean": 0.0106,
+    "p_disk_p90": 0.0081,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "aquitaine_basin",
+    "init_time": "2020-12-11T06:00:00",
+    "score": 9.196,
+    "p_box_mean": 0.0103,
+    "p_disk_p90": 0.0057,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "aquitaine_basin",
+    "init_time": "2020-03-05T12:00:00",
+    "score": 6.9874,
+    "p_box_mean": 0.0071,
+    "p_disk_p90": 0.0069,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "aquitaine_basin",
+    "init_time": "2020-06-12T00:00:00",
+    "score": 6.1814,
+    "p_box_mean": 0.0074,
+    "p_disk_p90": 0.0036,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "sahara_plain",
+    "init_time": "2020-11-26T06:00:00",
+    "score": 22.748,
+    "p_box_mean": 0.0042,
+    "p_disk_p90": 0.0046,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "sahara_plain",
+    "init_time": "2020-10-22T06:00:00",
+    "score": 10.9865,
+    "p_box_mean": 0.002,
+    "p_disk_p90": 0.003,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "sahara_plain",
+    "init_time": "2020-03-23T18:00:00",
+    "score": 9.8305,
+    "p_box_mean": 0.002,
+    "p_disk_p90": 0.0012,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "sahara_plain",
+    "init_time": "2020-09-01T06:00:00",
+    "score": 4.9163,
+    "p_box_mean": 0.0012,
+    "p_disk_p90": 0.0001,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "canterbury_plain",
+    "init_time": "2020-11-07T18:00:00",
+    "score": 12.9621,
+    "p_box_mean": 0.014,
+    "p_disk_p90": 0.0053,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "canterbury_plain",
+    "init_time": "2020-05-24T12:00:00",
+    "score": 10.3021,
+    "p_box_mean": 0.0097,
+    "p_disk_p90": 0.0096,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "canterbury_plain",
+    "init_time": "2020-12-23T12:00:00",
+    "score": 9.5481,
+    "p_box_mean": 0.0097,
+    "p_disk_p90": 0.0068,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "canterbury_plain",
+    "init_time": "2020-02-22T06:00:00",
+    "score": 7.5489,
+    "p_box_mean": 0.0089,
+    "p_disk_p90": 0.0021,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caspian_lowland",
+    "init_time": "2020-05-16T18:00:00",
+    "score": 16.1425,
+    "p_box_mean": 0.0053,
+    "p_disk_p90": 0.0019,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caspian_lowland",
+    "init_time": "2020-01-12T06:00:00",
+    "score": 14.2555,
+    "p_box_mean": 0.0046,
+    "p_disk_p90": 0.0021,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caspian_lowland",
+    "init_time": "2020-08-03T00:00:00",
+    "score": 11.6193,
+    "p_box_mean": 0.0039,
+    "p_disk_p90": 0.0013,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  },
+  {
+    "target": "caspian_lowland",
+    "init_time": "2020-09-19T06:00:00",
+    "score": 8.053,
+    "p_box_mean": 0.0025,
+    "p_disk_p90": 0.0022,
+    "min_days_sep": 30,
+    "fallback_used": false,
+    "role": "strong"
+  }
+]

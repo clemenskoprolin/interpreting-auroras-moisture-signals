@@ -1,0 +1,68 @@
+[
+  {
+    "method": "saliency",
+    "target_mode": "point",
+    "mean_rho_mag": 0.6578899850312123,
+    "mean_rho_signed": 0.7321599582738667,
+    "mean_ndcg_at_10": 0.9881723317061062,
+    "mean_top10_recall": 0.9250000000000002,
+    "mean_remote_gap": 0.01837495023610389,
+    "mean_runtime_s": 3.1978801488876343,
+    "n_rows": 12
+  },
+  {
+    "method": "ig",
+    "target_mode": "point",
+    "mean_rho_mag": 0.651781469214502,
+    "mean_rho_signed": 0.32624251369676405,
+    "mean_ndcg_at_10": 0.9866442198055329,
+    "mean_top10_recall": 0.9333333333333335,
+    "mean_remote_gap": 0.01837495023610389,
+    "mean_runtime_s": 86.8367650906245,
+    "n_rows": 12
+  },
+  {
+    "method": "contrastive_saliency_remote",
+    "target_mode": "point",
+    "mean_rho_mag": 0.6493086722891416,
+    "mean_rho_signed": 0.7181532893898921,
+    "mean_ndcg_at_10": 0.9874007662918367,
+    "mean_top10_recall": 0.9333333333333335,
+    "mean_remote_gap": 0.017744347748061457,
+    "mean_runtime_s": 3.052151878674825,
+    "n_rows": 12
+  },
+  {
+    "method": "contrastive_saliency_global",
+    "target_mode": "point",
+    "mean_rho_mag": 0.6469865546287787,
+    "mean_rho_signed": 0.7338868926527194,
+    "mean_ndcg_at_10": 0.9879545545891609,
+    "mean_top10_recall": 0.9250000000000002,
+    "mean_remote_gap": 0.01790053509917539,
+    "mean_runtime_s": 3.079394042491913,
+    "n_rows": 12
+  },
+  {
+    "method": "contrastive_ig_remote",
+    "target_mode": "point",
+    "mean_rho_mag": 0.6440363654787981,
+    "mean_rho_signed": 0.32213632435630274,
+    "mean_ndcg_at_10": 0.9861798916394343,
+    "mean_top10_recall": 0.9250000000000002,
+    "mean_remote_gap": 0.017744347748061457,
+    "mean_runtime_s": 86.91581390301387,
+    "n_rows": 12
+  },
+  {
+    "method": "contrastive_ig_global",
+    "target_mode": "point",
+    "mean_rho_mag": 0.6411526318690098,
+    "mean_rho_signed": 0.3225485562947674,
+    "mean_ndcg_at_10": 0.9863163506842333,
+    "mean_top10_recall": 0.9333333333333335,
+    "mean_remote_gap": 0.01790053509917539,
+    "mean_runtime_s": 87.78640009959538,
+    "n_rows": 12
+  }
+]

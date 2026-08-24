@@ -1,0 +1,27 @@
+{
+  "method": "saliency",
+  "case_id": "ticino_2020042012_strong__point",
+  "base_case_id": "ticino_2020042012_strong",
+  "scale": "local",
+  "target_mode": "point",
+  "target_meta": {
+    "target_short": "ticino",
+    "target_mode": "point",
+    "level_hpa": 850,
+    "selection": "nearest_gridpoint_to_box_center",
+    "requested_lat": 46.25,
+    "requested_lon": 8.75,
+    "lat_idx": 175,
+    "lon_idx": 35,
+    "lat": 46.25,
+    "lon": 8.75
+  },
+  "runtime_s": 95.9443109035492,
+  "rho_mag": 0.4674229922681867,
+  "rho_signed": 0.8603792539082341,
+  "ndcg_at_10": 0.5097894592766332,
+  "top10_recall": 0.3,
+  "remote_gap": 0.007272021567567866,
+  "n_masks": 376,
+  "n_remote": 4
+}

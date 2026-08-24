@@ -1,0 +1,27 @@
+{
+  "method": "ig",
+  "case_id": "ticino_2020110212_secondary__point",
+  "base_case_id": "ticino_2020110212_secondary",
+  "scale": "local",
+  "target_mode": "point",
+  "target_meta": {
+    "target_short": "ticino",
+    "target_mode": "point",
+    "level_hpa": 850,
+    "selection": "nearest_gridpoint_to_box_center",
+    "requested_lat": 46.25,
+    "requested_lon": 8.75,
+    "lat_idx": 175,
+    "lon_idx": 35,
+    "lat": 46.25,
+    "lon": 8.75
+  },
+  "runtime_s": 2426.238870382309,
+  "rho_mag": 0.41334987377108673,
+  "rho_signed": 0.3144098425419042,
+  "ndcg_at_10": 0.9838011236291423,
+  "top10_recall": 0.8,
+  "remote_gap": 0.007843113960103785,
+  "n_masks": 376,
+  "n_remote": 4
+}

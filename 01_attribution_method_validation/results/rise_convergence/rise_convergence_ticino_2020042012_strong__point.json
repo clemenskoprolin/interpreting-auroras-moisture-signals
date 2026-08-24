@@ -1,0 +1,51 @@
+{
+  "case": "ticino_2020042012_strong__point",
+  "scale": "local",
+  "lead_time_hours": 6,
+  "cells": [
+    18,
+    36
+  ],
+  "p": 0.5,
+  "seed_a": 42,
+  "seed_b": 1234,
+  "runtime_s": 2112.9327075481415,
+  "rows": [
+    {
+      "n_masks": 32,
+      "self_pearson": 0.2388394413005169,
+      "repro_pearson": 0.066863370287362,
+      "repro_spearman": 0.03487594021189804
+    },
+    {
+      "n_masks": 64,
+      "self_pearson": 0.36098714746469673,
+      "repro_pearson": 0.09960834555688147,
+      "repro_spearman": 0.027886269639435895
+    },
+    {
+      "n_masks": 128,
+      "self_pearson": 0.502553603751043,
+      "repro_pearson": 0.11873853333603578,
+      "repro_spearman": -0.021223854456251964
+    },
+    {
+      "n_masks": 256,
+      "self_pearson": 0.6228077200104025,
+      "repro_pearson": 0.224978088521196,
+      "repro_spearman": 0.02169090366469669
+    },
+    {
+      "n_masks": 512,
+      "self_pearson": 0.8557612066195377,
+      "repro_pearson": 0.4189082257972675,
+      "repro_spearman": 0.10038836740643908
+    },
+    {
+      "n_masks": 1024,
+      "self_pearson": 1.0,
+      "repro_pearson": 0.5329290010675991,
+      "repro_spearman": 0.08309852148176283
+    }
+  ]
+}

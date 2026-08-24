@@ -1,0 +1,88 @@
+[project]
+name = "geoxplain-aurora-adapter"
+version = "1.0.0"
+description = "On-the-fly XAI computation with remote backends for the Aurora weather model"
+readme = "README.md"
+authors = [
+    { name = "Clemens Koprolin", email = "clemens@koprolin.com" },
+]
+maintainers = [
+    { name = "Clemens Koprolin", email = "clemens@koprolin.com" },
+]
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+requires-python = ">=3.10"
+keywords = [
+    "aurora",
+    "explainable-ai",
+    "geospatial",
+    "machine-learning",
+    "slurm",
+    "weather",
+    "xai",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "tomli>=1.1; python_version < '3.11'",
+]
+
+[project.urls]
+Homepage = "https://github.com/clemenskoprolin/interpreting-auroras-moisture-signals/tree/main/geoxplain-aurora-adapter"
+Repository = "https://github.com/clemenskoprolin/interpreting-auroras-moisture-signals"
+Documentation = "https://clemenskoprolin.github.io/geoxplain/"
+Issues = "https://github.com/clemenskoprolin/interpreting-auroras-moisture-signals/issues"
+
+[project.optional-dependencies]
+gpu = [
+    "microsoft-aurora>=1.3",
+    "torch>=2.0",
+    "xarray>=2024.1",
+    "pandas>=2.0",
+    "netCDF4>=1.6",
+    "zarr>=2.0",
+    "gcsfs>=2024.1",
+    "scikit-image>=0.21",
+    "scikit-learn>=1.3",
+]
+server = [
+    "fastapi>=0.111",
+    "uvicorn[standard]>=0.29",
+    "msgpack>=1.0",
+    "httpx>=0.27",
+    "xarray>=2024.1",
+    "pandas>=2.0",
+    "netCDF4>=1.6",
+    "zarr>=2.0",
+    "gcsfs>=2024.1",
+]
+client = [
+    "msgpack>=1.0",
+    "httpx>=0.27",
+]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+geoxplain-aurora-adapter = "geoxplain_aurora_adapter.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["geoxplain_aurora_adapter"]

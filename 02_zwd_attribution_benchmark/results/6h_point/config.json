@@ -1,0 +1,57 @@
+{
+  "methods": [
+    "saliency",
+    "ig",
+    "contrastive_saliency_remote",
+    "contrastive_saliency_global",
+    "contrastive_ig_remote",
+    "contrastive_ig_global"
+  ],
+  "scales": [
+    "local",
+    "synoptic"
+  ],
+  "target_mode": "point",
+  "cases": [
+    {
+      "target": "ticino",
+      "init_time": "2020-04-20T12:00:00",
+      "role": "strong"
+    },
+    {
+      "target": "ticino",
+      "init_time": "2020-11-02T12:00:00",
+      "role": "secondary"
+    },
+    {
+      "target": "california",
+      "init_time": "2021-10-24T12:00:00",
+      "role": "strong"
+    },
+    {
+      "target": "california",
+      "init_time": "2023-03-10T12:00:00",
+      "role": "secondary"
+    },
+    {
+      "target": "japan",
+      "init_time": "2020-02-16T12:00:00",
+      "role": "strong"
+    },
+    {
+      "target": "japan",
+      "init_time": "2023-12-12T00:00:00",
+      "role": "secondary"
+    }
+  ],
+  "ig_steps": 32,
+  "rise_n_masks": 200,
+  "rise_cells_h": 18,
+  "rise_cells_w": 36,
+  "vit_cx_stage": 2,
+  "vit_cx_dist_thresh": 0.08,
+  "magnitude": 1.0,
+  "lead_time_hours": 6,
+  "gt_only": false,
+  "seed": 42
+}

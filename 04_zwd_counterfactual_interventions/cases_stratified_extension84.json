@@ -1,0 +1,422 @@
+[
+ {
+  "target": "rockies",
+  "init_time": "2020-10-28T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2022-03-07T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2020-09-25T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2020-04-18T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2021-08-29T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2022-11-01T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2020-12-19T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2021-08-20T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2023-08-19T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2023-09-03T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2020-05-28T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "rockies",
+  "init_time": "2022-07-25T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2023-12-04T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2021-01-07T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2022-02-27T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2020-10-29T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2023-10-11T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2021-08-03T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2022-03-29T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2023-10-02T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2022-11-02T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2023-03-30T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2022-07-23T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "alps_east",
+  "init_time": "2020-02-24T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "valais",
+  "init_time": "2020-12-10T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "valais",
+  "init_time": "2021-12-14T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "valais",
+  "init_time": "2020-09-02T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "valais",
+  "init_time": "2022-03-11T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "valais",
+  "init_time": "2022-06-17T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "valais",
+  "init_time": "2021-05-01T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "valais",
+  "init_time": "2021-02-19T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "valais",
+  "init_time": "2020-04-25T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "valais",
+  "init_time": "2020-09-12T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "valais",
+  "init_time": "2020-05-10T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "valais",
+  "init_time": "2021-06-20T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "valais",
+  "init_time": "2021-05-10T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2021-03-25T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2023-05-13T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2021-11-18T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2020-05-07T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2022-08-23T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2020-02-08T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2020-08-02T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2022-06-30T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2023-03-07T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2021-01-29T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2023-06-22T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "pyrenees",
+  "init_time": "2022-03-15T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2023-08-01T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2022-08-07T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2020-09-09T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2020-04-16T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2020-11-03T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2020-09-12T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2022-11-09T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2023-09-11T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2021-12-20T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2023-06-21T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2023-02-16T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "atlas",
+  "init_time": "2023-11-01T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2021-04-24T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2021-03-18T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2023-09-12T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2021-09-28T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2023-03-24T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2021-06-17T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2020-12-23T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2020-04-02T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2022-05-18T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2023-10-25T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2022-08-05T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "new_zealand_alps",
+  "init_time": "2023-12-23T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2022-12-23T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2022-03-27T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2020-05-14T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2022-08-23T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2021-07-11T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2021-12-27T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2022-10-07T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2021-02-13T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2023-04-19T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2020-03-13T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2023-09-07T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "caucasus",
+  "init_time": "2023-03-16T12:00:00",
+  "role": "extreme"
+ }
+]

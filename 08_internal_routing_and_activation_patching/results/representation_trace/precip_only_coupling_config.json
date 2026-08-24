@@ -1,0 +1,26 @@
+{
+  "modes": [
+    "q850_trace",
+    "precip_trace"
+  ],
+  "scales": [
+    "local",
+    "synoptic"
+  ],
+  "timesteps": [
+    "t1"
+  ],
+  "targets": [
+    "q850"
+  ],
+  "models": [
+    "precip_only"
+  ],
+  "region_source_target": "q850",
+  "region_selections": "${AURORA_XAI_RESULTS_DIR}/internal_routing/selections.csv",
+  "n_per_target": 1,
+  "zwd_magnitude": 1.0,
+  "precip_dose_mm": 2.11,
+  "model_conditional_dir": "${AURORA_XAI_RESULTS_DIR}/model_conditional_comparison",
+  "n_cases": 22
+}

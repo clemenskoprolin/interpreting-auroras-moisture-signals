@@ -1,0 +1,51 @@
+{
+  "case": "japan_2020021612_strong__point",
+  "scale": "local",
+  "lead_time_hours": 6,
+  "cells": [
+    18,
+    36
+  ],
+  "p": 0.5,
+  "seed_a": 42,
+  "seed_b": 1234,
+  "runtime_s": 2115.1544375419617,
+  "rows": [
+    {
+      "n_masks": 32,
+      "self_pearson": 0.2920090074545756,
+      "repro_pearson": 0.057293085404634014,
+      "repro_spearman": 0.03155437062354935
+    },
+    {
+      "n_masks": 64,
+      "self_pearson": 0.3880171013616635,
+      "repro_pearson": 0.07848712678536766,
+      "repro_spearman": 0.015523305487186726
+    },
+    {
+      "n_masks": 128,
+      "self_pearson": 0.4979335535109907,
+      "repro_pearson": 0.17741963042905562,
+      "repro_spearman": 0.039139272871391746
+    },
+    {
+      "n_masks": 256,
+      "self_pearson": 0.6642918266944201,
+      "repro_pearson": 0.2838471816616462,
+      "repro_spearman": 0.017698104061971455
+    },
+    {
+      "n_masks": 512,
+      "self_pearson": 0.832403690090638,
+      "repro_pearson": 0.40058907535961247,
+      "repro_spearman": -0.002097453866212955
+    },
+    {
+      "n_masks": 1024,
+      "self_pearson": 0.9999999999999998,
+      "repro_pearson": 0.5678881234913513,
+      "repro_spearman": 0.003207340142448705
+    }
+  ]
+}

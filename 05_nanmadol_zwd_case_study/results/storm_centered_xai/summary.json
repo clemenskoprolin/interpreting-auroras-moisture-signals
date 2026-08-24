@@ -1,0 +1,55 @@
+{
+  "case": "nanmadol",
+  "study_id": "nanmadol_2022091712_zwd_tc_case_study",
+  "step_hours": 6.0,
+  "lead_hours": [
+    24,
+    48,
+    72
+  ],
+  "target_kinds": [
+    "intensity",
+    "center_lat",
+    "center_lon"
+  ],
+  "selection_target": "intensity",
+  "selection_lead_hours": 48,
+  "selected_regions": {
+    "hotspot": {
+      "label": "Hotspot",
+      "mask_key": "storm_near_149",
+      "role": "near",
+      "center_lat": 31.0,
+      "center_lon": 130.0,
+      "center_lon_plot": 130.0,
+      "pooled_saliency_mag": 6.516729086631864e-05,
+      "pooled_saliency_signed": 1.2452078753159666e-05,
+      "distance_km": 434.8430425061446,
+      "sigma_deg": 3.0
+    },
+    "low_near": {
+      "label": "Low-saliency near control",
+      "mask_key": "storm_near_019",
+      "role": "near",
+      "center_lat": 15.0,
+      "center_lon": 134.0,
+      "center_lon_plot": 134.0,
+      "pooled_saliency_mag": 9.195881667176869e-06,
+      "pooled_saliency_signed": -6.326456628291022e-07,
+      "distance_km": 1405.2172272879043,
+      "sigma_deg": 3.0
+    },
+    "remote": {
+      "label": "Remote control",
+      "mask_key": "storm_remote_002",
+      "role": "remote",
+      "center_lat": -15.0,
+      "center_lon": 74.0,
+      "center_lon_plot": 74.0,
+      "pooled_saliency_mag": 6.180551694400469e-07,
+      "pooled_saliency_signed": 9.619648711760619e-09,
+      "distance_km": 7834.432430955493,
+      "sigma_deg": 3.0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "test_id": "zwd_checkpoint_ticino_q850_point",
+  "checkpoint": "zwd_searchlight",
+  "case": "2020-04-20T12:00:00",
+  "target": "q850_point_ticino",
+  "attributed_input": "q_all_levels_both_times",
+  "baseline_sigma_deg": 2.5,
+  "f_actual": 6.2230329513549805,
+  "f_baseline": 6.08134126663208,
+  "rows": [
+    {
+      "n_steps": 8,
+      "ig_sum": 0.1435071059217049,
+      "ig_abs": 2.5879991948330274,
+      "target_delta": 0.1416916847229004,
+      "gap": 0.0018154211988045121,
+      "rel_gap": 0.01281247521585225,
+      "rel_energy": 0.0007014767247335406,
+      "runtime_s": 28.75163507461548
+    },
+    {
+      "n_steps": 32,
+      "ig_sum": 0.14387683893782996,
+      "ig_abs": 2.5873240907796293,
+      "target_delta": 0.1416916847229004,
+      "gap": 0.002185154214929569,
+      "rel_gap": 0.015421894511332615,
+      "rel_energy": 0.000844561461286098,
+      "runtime_s": 113.21246814727783
+    },
+    {
+      "n_steps": 64,
+      "ig_sum": 0.14370964855023563,
+      "ig_abs": 2.588242438614407,
+      "target_delta": 0.1416916847229004,
+      "gap": 0.0020179638273352396,
+      "rel_gap": 0.014241935447952887,
+      "rel_energy": 0.0007796656902108207,
+      "runtime_s": 226.20603823661804
+    }
+  ]
+}

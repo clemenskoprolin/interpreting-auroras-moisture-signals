@@ -1,0 +1,242 @@
+[
+ {
+  "target": "great_plains",
+  "init_time": "2020-12-30T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2022-06-04T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2020-11-26T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2020-04-17T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2021-07-14T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2022-09-10T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2020-09-09T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2021-08-12T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2023-08-02T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2023-09-22T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2020-03-09T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "great_plains",
+  "init_time": "2022-06-23T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2023-12-17T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2020-12-26T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2022-04-01T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2020-12-03T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2023-10-21T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2021-07-27T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2022-03-31T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2023-09-30T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2022-10-27T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2022-12-31T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2022-02-17T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "aquitaine_basin",
+  "init_time": "2020-02-10T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2020-10-02T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2021-11-12T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2020-08-09T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2022-04-06T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2022-05-22T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2021-07-02T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2021-06-10T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2020-05-31T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2020-12-16T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2020-08-03T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2021-05-26T12:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "caspian_lowland",
+  "init_time": "2021-04-27T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2021-04-27T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2023-06-22T12:00:00",
+  "role": "low"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2022-05-23T00:00:00",
+  "role": "low"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2020-07-27T00:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2022-11-25T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2020-03-17T12:00:00",
+  "role": "typical"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2020-07-04T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2022-03-25T12:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2023-02-16T00:00:00",
+  "role": "humid"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2020-10-27T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2022-10-20T00:00:00",
+  "role": "extreme"
+ },
+ {
+  "target": "amazon_interior",
+  "init_time": "2022-09-09T00:00:00",
+  "role": "extreme"
+ }
+]

@@ -10,6 +10,16 @@ retained regenerated 22-row table gives 0.772; this 0.001 difference is below
 the precision of the scientific interpretation but is recorded here rather
 than hidden.
 
+## Figure
+
+![Precipitation and ZWD saliency maps and their signed difference](../figures/precip-zwd-saliency-alignment.png)
+
+*Unit-sum-normalized absolute input-gradient saliency of the +6 h 850 hPa
+specific-humidity target with respect to precipitation (left) and ZWD (center)
+in the precipitation+ZWD model for one representative target. Their signed
+difference (right) reveals a small spatial offset within the otherwise shared
+dominant sensitivity structure.*
+
 `cases_diagnostic_22.json` fixes the exact final cohort.
 `results/stage_b_reliance_summary.csv` is the versioned 22-row aggregate used
 for the reported saliency alignment. `cases_precipitation.json` and
@@ -20,7 +30,7 @@ workflow.
 humidity-target, and 2 m temperature IG controls used in the numerical
 validation appendix. The Stage-B comparison is recorded in its CSV aggregate.
 
-## Run the final saliency comparison
+## Run the saliency comparison
 
 Run in a GPU allocation:
 

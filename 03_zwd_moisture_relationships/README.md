@@ -11,6 +11,15 @@ disk-mean ZWD and pressure-weighted column humidity, and 0.921 between
 disk-mean ZWD and 850 hPa humidity. The association is strongest in the lower
 and middle troposphere and weakens aloft.
 
+## Figure
+
+![Vertical ZWD-humidity correlations and the ZWD-column-humidity relationship](../figures/zwd_humidity_baseline.png)
+
+*ZWD-humidity baseline diagnostics. Left: monthly-standardized Spearman
+correlations between disk-mean ZWD and specific humidity by pressure level.
+Right: pooled target-wise standardized disk-mean ZWD and pressure-weighted
+column humidity. The annotated correlation retains the seasonal cycle.*
+
 The completed run's ranked numerical summary is versioned as
 `results/top_correlations.json`. The pipeline also produces the full time
 series and correlation matrices used by the figure scripts.

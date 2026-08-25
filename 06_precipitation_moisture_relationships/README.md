@@ -15,6 +15,15 @@ mean absolute Spearman correlation is 0.328 for ZWD and 0.260 for humidity.
 The association rises slightly at six hours and decays to roughly 0.17--0.21
 at 24 hours.
 
+## Figures
+
+![Regional and lagged relationships between precipitation, ZWD, and humidity](../figures/p_moisture_coupling.png)
+
+*Association between MSWEP precipitation and atmospheric moisture in 2020.
+The left panel shows simultaneous mean absolute Spearman correlations for ZWD
+and humidity by region, with pooled estimates hatched. The right panel shows
+pooled correlations between moisture at time t and precipitation at t + lag.*
+
 `results/top_correlations.json` is the completed run's machine-readable ranked
 summary. The pipeline also produces the paired time series and full correlation
 matrix used by the retained plotting script.

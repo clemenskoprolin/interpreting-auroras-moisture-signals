@@ -20,6 +20,15 @@ run. The single-case forward-method pilot used 1,200 RISE masks on a 72 by 144
 grid and 4,096 ViT-CX clusters. The fixed-cluster ViT-CX option and optional
 output smoothing in this copy match the final experiment code.
 
+## Figure
+
+![Reference response, saliency, and Integrated Gradients for the 36-hour Ticino benchmark](../figures/36h_searchlight.png)
+
+*Intervention-based reference response (left), saliency (center), and
+Integrated Gradients (right) for the Ticino case at a 36 h lead with local
+masks (sigma = 2.5 degrees). Both methods localize the influential region, but
+IG is less consistent in sign.*
+
 ## Versioned outputs
 
 `results/6h_box/` and `results/6h_point/` contain the full aggregate rows,

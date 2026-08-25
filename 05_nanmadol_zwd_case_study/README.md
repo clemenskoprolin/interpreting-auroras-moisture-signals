@@ -12,6 +12,23 @@ storm center. Its pooled saliency is 7.1 times that of the low-near control and
 largest intensity and late-track response. This demonstrates model-internal
 relevance for one case; it is not a cyclone forecast benchmark.
 
+## Figures
+
+![ZWD saliency regions and perturbed Typhoon Nanmadol tracks](../figures/nanmadol_track_overlay.png)
+
+*ZWD attribution and perturbation analysis for Typhoon Nanmadol, initialized
+on 2022-09-17 at 12:00 UTC. The left panel shows smoothed saliency for the
++48 h intensity target and the selected regions. The right panel compares the
+IBTrACS best track with baseline and perturbed Aurora forecasts; hotspot
+perturbations produce the clearest late-lead divergence.*
+
+![Storm-centered ZWD saliency at 24, 48, and 72 hours](../figures/nanmadol_saliency_evolution.png)
+
+*Storm-centered sensitivity of the +24 h, +48 h, and +72 h intensity targets
+to initialized ZWD. The star marks the initialized cyclone center, the squares
+mark the lead-specific forecast target centers, and the circles indicate
+distances of 312, 937, and 1,250 km from each target center.*
+
 `results/storm_centered_xai/` versions the selected-region and saliency-summary
 JSON, while `results/track_perturbation/summary.json` records the perturbation
 setup. Machine-specific source paths were rewritten to repository-relative

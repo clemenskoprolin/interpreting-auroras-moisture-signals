@@ -14,6 +14,13 @@ and activation patching.
 
 ## Selected figures
 
+![Comparison of the adapted attribution methods used with Aurora](figures/xia-methods.png)
+
+*Schematic comparison of the adapted XAI methods. Saliency and Integrated
+Gradients compute signed, per-level attributions from gradients, whereas RISE
+and ViT-CX use random or encoder-derived masks to produce level-collapsed
+maps.*
+
 ![GeoXplain comparison of ZWD and temperature overlays beneath Integrated Gradients contours](figures/geoxplain/example_2_zwd.png)
 
 *GeoXplain places an Integrated Gradients explanation of a Zurich ZWD target in

@@ -36,6 +36,13 @@ larger RMS hidden-state changes while producing far smaller output responses,
 and that cross-model CKA remains approximately 0.989--0.999. Hidden-state
 magnitude alone is therefore not an importance measure.
 
+![Target-level coupling between humidity, precipitation, and ZWD](../figures/target_coupling_bars.png)
+
+*Local median signed hotspot responses, standardized by each output's
+climatological standard deviation. Rows denote perturbed inputs and columns
+predicted outputs. Solid bars show the precipitation+ZWD model and hatched bars
+the precipitation-only model, whose ZWD row and column are empty by design.*
+
 The compact retained evidence is under `results/representation_trace/`:
 portable JSON run configurations, all-pair and stage-metric CSV aggregates,
 and `target_coupling_provenance.md`. These files reproduce the target-coupling
@@ -63,6 +70,14 @@ directory by default. Its JSON paths are portable substitutions for the
 original cluster paths, while measured values and case splits are unchanged.
 The two unit-test files validate mask downsampling, normalization, and
 aggregation without importing Aurora.
+
+![Activation-patching recovery for ZWD, humidity, and precipitation](../figures/large_activation_patch_unified_lead6.png)
+
+*Controlled activation-patching recovery at a 6 h lead for ZWD, specific
+humidity, and MSWEP precipitation, reported as medians over the same eight
+cases and 850 hPa specific-humidity target. ZWD is weighted toward the
+high-resolution encoder stage 0 skip, humidity retains more positive
+bottleneck recovery, and precipitation re-localizes in the late decoder.*
 
 Reproduce the paper's standardized coupling panel from the repository root
 with:
